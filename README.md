@@ -46,12 +46,27 @@ The **actual stadium's full footprint and detailed internal layout are not suppl
 ## How to build
 
 1. Make a Minecraft world backup before clearing any terrain.
-2. Pick a flat location and adjust the blueprint's default coordinates only by translating your placement commands consistently. The current viewer is configured for X 1000–1239, Z 1000–1287, Y 80–159.
-3. Start at relative layer −10 (Y 80) for underground foundations, then work upward.
-4. In the viewer, select a row/column or material to generate commands. Each command is already mapped to the default real-world Minecraft coordinates.
-5. Click **Mark placed** only after the corresponding in-game command succeeds. Copying alone does not verify placement.
-6. **Air means leave empty where there is interior structure.** Outside the stadium footprint, air squares are just blank canvas and do not mean you need to excavate surrounding land.
-7. Back up progress from the Progress Checklist tab before changing computers or browsing origins.
+2. On the website, set **Start X**, **Field Y**, and **Start Z** in the **Your Minecraft starting coordinates** panel. X and Z mark the northwest corner; Y is the stadium field's ground layer. Choose a location that fits all 240 × 288 blocks and all 80 Y layers.
+3. Click **Save coordinates**, press Enter, or finish editing a field to save automatically. Your selected coordinates are restored whenever you reload or reopen the same website in the same browser, subject to that browser retaining site data.
+4. Start at relative layer −10 (10 blocks below your chosen Field Y) for underground foundations, then work upward.
+5. In the viewer, select a row/column or material to generate commands. Each command is already mapped to the default real-world Minecraft coordinates.
+6. Click **Mark placed** only after the corresponding in-game command succeeds. Copying alone does not verify placement.
+7. **Air means leave empty where there is interior structure.** Outside the stadium footprint, air squares are just blank canvas and do not mean you need to excavate surrounding land.
+8. Back up progress from the Progress Checklist tab before changing computers or browsing origins.
+
+## Saving your starting coordinates
+
+The website has editable fields for the **northwest starting X/Z** and **field Y**. Default values are `X 1000, Y 90, Z 1000`; your own saved values take precedence on the next load.
+
+- Starting coordinates are saved in the browser's `localStorage` under `arrowhead-start-coordinates-v1`, separately from placed-block progress.
+- Editing and leaving a field saves automatically; the **Save coordinates** button also saves and applies all three values.
+- The layer picker, numbered X/Z grid, world Y labels, `/setblock` commands, row/column `/fill` commands, material-first commands, and coordinate jump limits all update to match.
+- **Reset defaults** restores the original X 1000, Y 90, Z 1000 starting position without erasing your progress.
+- You may choose negative X/Z coordinates. The chosen field elevation must be between **Y −54 and Y 250** so all 80 model layers fit within the Java overworld height limits (−64 through 319).
+- Build progress is recorded relative to each block in the model, so changing coordinates does not erase checkmarks or alter the 604,037-block blueprint.
+- Minecraft itself does **not** relocate previously placed blocks when you change the website's origin. Make sure you really intend to use the new location before building further.
+- Progress JSON backups still include the coordinates used when exported, but they can now be imported at a different starting position without overwriting the currently saved origin. Prior copied commands from different world coordinates are not restored.
+- Browser storage is specific to that browser and site. Clearing site data, using a private window, or changing browsers can remove saved coordinates; progress backup exports do not replace browser settings backups.
 
 ## Hosting on GitHub Pages
 
