@@ -1,4 +1,4 @@
-name: Deploy Arrowhead Blueprint Website
+name: Deploy Arrowhead Blueprint Website (Node.js 24)
 
 on:
   push:
@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
   build:
+    # These four action versions declare runs.using: node24, not node20.
     runs-on: ubuntu-latest
     steps:
       - name: Check out blueprint site
