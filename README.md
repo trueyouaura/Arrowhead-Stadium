@@ -1,8 +1,21 @@
-# GEHA Field at Arrowhead Stadium: Minecraft Java Edition 1:1 Build Guide
+# Arrowhead Stadium: Minecraft Java Edition 1:1 Build Guide
 
 An independently hosted, interactive block-by-block **Minecraft Java Edition** Arrowhead Stadium blueprint viewer, adapted from the [Colosseum blueprint viewer](https://trueyouaura.github.io/minecraft-colosseum/).
 
 **Open the viewer:** https://trueyouaura.github.io/Arrowhead-Stadium/
+
+## Stadium facts (checked November 2026)
+
+- **Official name:** **Arrowhead Stadium**, restored beginning with the 2026 NFL season.
+- **Location:** 1 Arrowhead Drive, Kansas City, Missouri.
+- **Opened:** 1972; underwent a major renovation completed in 2010.
+- **Design:** Open-air NFL stadium with three major spectator levels: Field Level (100 sections), CommunityAmerica Club Level (200 sections), and Upper Level (300 sections).
+- **Playing surface:** Natural grass, installed in 1994.
+- **NFL playing field:** 120 yards long including two end zones and 53⅓ yards wide, approximately **110 × 49 meters** (Minecraft blocks at the nominal 1 m/block scale).
+
+**Official references:** [Arrowhead Stadium's maps and levels](https://www.arrowheadstadiumkc.com/plan-your-visit/stadium-maps), [Kansas City Chiefs news](https://www.chiefs.com/news/corporate), and [NFL playing rules](https://operations.nfl.com/the-rules/nfl-rulebook/).
+
+The **actual stadium's full footprint and detailed internal layout are not supplied by these sources**. The Minecraft model's 240 × 288 layout, its underground rooms, seating slopes, concourses, ramps, suites, press areas, and roofline details remain creative approximations, not verified as-built measurements.
 
 ## Blueprint specifications
 
