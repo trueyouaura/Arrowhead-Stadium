@@ -54,6 +54,17 @@ The **actual stadium's full footprint and detailed internal layout are not suppl
 7. **Air means leave empty where there is interior structure.** Outside the stadium footprint, air squares are just blank canvas and do not mean you need to excavate surrounding land.
 8. Back up progress from the Progress Checklist tab before changing computers or browsing origins.
 
+## Football field accuracy and midfield design
+
+- **Field geometry:** The playing area uses a nominal 110 × 49-meter footprint, corresponding roughly to a regulation 120-yard by 53⅓-yard football field. It is an intentionally block-rounded construction plan, not a dimensional survey.
+- **Yard-line spacing:** At 1 Minecraft block per meter, NFL five-yard intervals become approximately 4.572 blocks. The 21 goal/yard/midfield lines therefore alternate between **4-block and 5-block gaps** (rounded symmetrically), avoiding irregular or overlapping linework while preserving the overall scale.
+- **Midfield:** A stylized white arrowhead with a dark outline and legible red **KC** lettering is centered on the 50-yard line. This is a pixel-art approximation suited to Minecraft block resolution.
+- **End zones:** Existing CHIEFS lettering remains in the layer plan.
+- **Versioning:** The revised field resets build-progress checkmarks **only at blocks whose materials actually changed**, preserving progress throughout the rest of the stadium.
+- **Elevation:** The revised field is at *your saved Field Y* (relative layer 0); changing your starting coordinates continues to move the blueprint's world position without losing your progress.
+
+Source: [2026 NFL Rulebook, Rule 1: Field Dimensions and Markings](https://operations.nfl.com/rules-officiating/2026-nfl-rulebook).
+
 ## Saving your starting coordinates
 
 The website has editable fields for the **northwest starting X/Z** and **field Y**. Default values are `X 1000, Y 90, Z 1000`; your own saved values take precedence on the next load.
