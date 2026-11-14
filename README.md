@@ -58,7 +58,7 @@ The **actual stadium's full footprint and detailed internal layout are not suppl
 
 - **Field geometry:** The playing area uses a nominal 110 × 49-meter footprint, corresponding roughly to a regulation 120-yard by 53⅓-yard football field. It is an intentionally block-rounded construction plan, not a dimensional survey.
 - **Yard-line spacing:** At 1 Minecraft block per meter, NFL five-yard intervals become approximately 4.572 blocks. The 21 goal/yard/midfield lines therefore alternate between **4-block and 5-block gaps** (rounded symmetrically), avoiding irregular or overlapping linework while preserving the overall scale.
-- **Midfield:** A stylized white arrowhead with a dark outline and legible red **KC** lettering is centered on the 50-yard line. This is a pixel-art approximation suited to Minecraft block resolution.
+- **Midfield orientation:** The Chiefs' white arrowhead has a black outline and points toward the **south end zone (positive Minecraft Z)**. The red **K** is at the broad **north tail**, while the red **C** sits farther south toward the pointed tip. The logo is pixel art suited to Minecraft's block resolution, not official stadium artwork.
 - **End zones:** Existing CHIEFS lettering remains in the layer plan.
 - **Versioning:** The revised field resets build-progress checkmarks **only at blocks whose materials actually changed**, preserving progress throughout the rest of the stadium.
 - **Elevation:** The revised field is at *your saved Field Y* (relative layer 0); changing your starting coordinates continues to move the blueprint's world position without losing your progress.
